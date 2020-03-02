@@ -1,48 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Leaflet Challenge</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>  
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
 <body>
-<h1>Mike Robben</h1>
-  <img width="250" height=auto src="https://media.licdn.com/dms/image/C4E03AQHsB9T7pCl1CQ/profile-displayphoto-shrink_200_200/0?e=1583366400&v=beta&t=9bC84ibgxpBgJIx8foZ9ERj0iOCtk8uH4GF84-tXWvk" alt="Mike Robben">
-<p>This is a paragraph</p>
-<p>This is paragraph 2</p>
-<ul>
-  <li><strong>Email:</strong><a href="mrobben@1to1marketing-inc.com"</a></li>
-  <li><strong>Email:</strong><a href="mrobben@1to1marketing-inc.com"</a></li>
-  <li><strong>Email:</strong><a href="mrobben@1to1marketing-inc.com"</a></li>    
-</ul>
-<table border="1">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Email</th>
-  </tr>
-  <tr>
-    <td>Google</td>
-    <td>Sergey Brin</td>
-    <td>sergey@google.com</td>
-  </tr>
-  <tr>
-    <td>Facebook</td>
-    <td>Mark Zuckerburg</td>
-    <td>mark@facebook.com</td>
-  </tr>
-  <tr>
-    <td>Space X</td>
-    <td>Elon Musk</td>
-    <td>elon@spacex.com</td>
-  </tr>
-  <tr>
-    <td>Amazon</td>
-    <td>Jeff Bezos</td>
-    <td>jeff@amazon.com</td>
-  </tr>
-</table>
-<a href="https://1to1marketing.github.io/TestProject1/" target="_blank">Test Proejct 1</a>
+
+  <!-- The div that holds our map -->
+  <div id="map"></div>
+
+  <!-- D3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+  
+  <!-- API Key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+
+  <!--JavaScript -->
+  <script type="text/javascript" src="static/js/logic.js"></script>
+
 </body>
 
 </html>
